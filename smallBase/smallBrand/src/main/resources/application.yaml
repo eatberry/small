@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  #数据源
+  datasource:
+    url: jdbc:mysql://localhost:3306/wood??useUnicode=true&amp;characterEncoding=UTF-8
+    username: root
+    password: rcwberry@163
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  typeAliasesPackage: com.wood.entity
+  mapperLocations: classpath:sql/*.xml
