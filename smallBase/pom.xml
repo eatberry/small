@@ -10,7 +10,8 @@
     <modules>
         <module>smallCommon</module>
         <module>smallUser</module>
-        <module>smallBrand</module>
+        <module>smallCraft</module>
+        <module>smallPortal</module>
     </modules>
 
     <packaging>pom</packaging>
