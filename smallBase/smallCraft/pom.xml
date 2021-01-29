@@ -9,7 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>smallBrand</artifactId>
+    <artifactId>smallCraft</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.smallBase</groupId>
+            <artifactId>smallCommon</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
 </project>

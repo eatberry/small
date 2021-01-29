@@ -4,11 +4,11 @@ server:
 spring:
   #数据源
   datasource:
-    url: jdbc:mysql://localhost:3306/wood??useUnicode=true&amp;characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/pinyougou??useUnicode=true&amp;characterEncoding=UTF-8
     username: root
-    password: rcwberry@163
+    password: root
     driver-class-name: com.mysql.jdbc.Driver
 
 mybatis:
-  typeAliasesPackage: com.wood.entity
+  typeAliasesPackage: com.smallBase.common.vo
   mapperLocations: classpath:sql/*.xml
